@@ -1,0 +1,41 @@
+:root {
+  --accent: #ffd369;
+  --light: #eeeeee;
+  --dark: #393e46;
+  --very-dark: #222831;
+}
+
+body {
+  background-color: var(--light);
+  color: var(--dark);
+  font-family: "Manrope", sans-serif;
+}
+
+.heading {
+  /* font-family: "Playfair Display", serif; */
+}
+
+.main {
+  max-width: 40rem;
+  margin: 5rem auto;
+}
+
+.card {
+  text-align: center;
+  border: 5px solid var(--dark);
+  background-color: #fff;
+  padding: 1rem;
+  box-shadow: 5px 5px 0 var(--accent);
+}
+
+.profile {
+  max-width: 100%;
+}
+
+.two-col {
+  columns: 2;
+}
+
+.three-col {
+  columns: 3;
+}
