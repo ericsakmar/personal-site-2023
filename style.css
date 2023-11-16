@@ -11,8 +11,36 @@ body {
   font-family: "Manrope", sans-serif;
 }
 
-.heading {
-  /* font-family: "Playfair Display", serif; */
+h1 {
+  font-weight: normal;
+  font-family: "Prata", serif;
+  color: var(--very-dark);
+  font-size: 5rem;
+  line-height: 5rem;
+  margin-bottom: 0rem;
+  border-bottom: 5px solid var(--dark);
+}
+
+h2 {
+  font-weight: normal;
+  font-family: "Prata", serif;
+  color: var(--very-dark);
+  border-bottom: 5px solid var(--dark);
+}
+
+h3 {
+  color: var(--very-dark);
+  margin-bottom: 0;
+}
+
+h4 {
+  color: var(--very-dark);
+  margin-top: 0;
+  font-weight: normal;
+}
+
+li::marker {
+  color: #73c2fb;
 }
 
 .main {
