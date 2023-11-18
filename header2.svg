@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="160.41386mm"
+   height="44.006374mm"
+   viewBox="0 0 160.41386 44.006374"
+   version="1.1"
+   id="svg1"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showguides="true">
+    <sodipodi:guide
+       position="-39.446258,254.10853"
+       orientation="0,-1"
+       id="guide4"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-25.68056,-144.32203)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;font-family:flutSaus;-inkscape-font-specification:flutSaus;opacity:1;fill:#000000;fill-opacity:0.998124;stroke-width:1.32292"
+       id="text3"
+       inkscape:export-filename="header.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><textPath
+         xlink:href="#path4"
+         id="textPath4"><tspan
+           id="tspan3"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;font-family:flutSaus;-inkscape-font-specification:flutSaus;fill:#000000;fill-opacity:0.998124;stroke-width:1.32292">ERIC SAKMAR</tspan></textPath></text>
+    <circle
+       style="opacity:1;fill:none;fill-opacity:0.998124;stroke-width:1.80941"
+       id="path4"
+       cx="-288.39404"
+       cy="-87.648735"
+       r="116.73313"
+       transform="rotate(-127.77351)" />
+  </g>
+</svg>
