@@ -1,7 +1,7 @@
 :root {
   --accent: #ffd369;
-  --accent2: #29a2f9;
-  --light: #eeeeee;
+  --accent2: #06558e;
+  --light: #f9fbf9;
   --dark: #393e46;
   --very-dark: #222831;
 }
@@ -64,11 +64,13 @@ h3 {
 
 h4 {
   margin-top: 0;
+  margin-bottom: 0;
   font-weight: normal;
 }
 
-li::marker {
-  color: var(--accent2);
+.two-col li::marker {
+  color: var(--very-dark);
+  opacity: 0.15;
 }
 
 .main {
@@ -137,4 +139,45 @@ li::marker {
 
 .icon {
   font-size: 0.4rem;
+}
+
+.chip-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  list-style-type: none;
+  padding: 0;
+}
+
+.chip-list li {
+  background-color: #eaf0ea;
+  border-radius: 0.5rem;
+  padding: 0 0.333rem;
+  font-size: 0.75rem;
+  line-height: 0.75rem;
+  padding-bottom: 0.2rem;
+}
+
+@media print {
+  html {
+    font-size: 16px;
+  }
+
+  header {
+    width: 15rem;
+    margin-top: 0;
+  }
+
+  body {
+    background-color: unset;
+  }
+
+  .main {
+    max-width: unset;
+    margin: unset;
+  }
+
+  .nav {
+    display: none;
+  }
 }
