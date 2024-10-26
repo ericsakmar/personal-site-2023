@@ -117,25 +117,25 @@ h4 {
   max-width: 300px;
 }
 
-.projects {
+.featured-projects {
   display: flex;
   flex-direction: row;
   gap: 1rem;
   flex-wrap: wrap;
 }
 
-.project {
+.featured-project {
   flex-basis: 10rem;
   flex-grow: 1;
   text-decoration: none;
   color: var(--dark);
 }
 
-.project:visited {
+.featured-project:visited {
   color: var(--dark);
 }
 
-.project-header {
+.featured-project-header {
   margin-top: 0.25rem;
   margin-bottom: 0;
   font-size: 1rem;
@@ -143,13 +143,37 @@ h4 {
   border-bottom: none;
 }
 
-.project p {
+.featured-project p {
   padding: 0;
   margin: 0;
 }
 
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project {
+  flex-basis: 20rem;
+  margin-bottom: 1rem;
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.project-name {
+  font-weight: bold;
+}
+
+.project-description {
+  margin: 0;
+  padding: 0;
+  grid-column-start: 2;
+}
+
 .icon {
   font-size: 0.7rem;
+  margin-top: 0.15rem;
+  margin-right: 0.25rem;
 }
 
 .chip-list {
